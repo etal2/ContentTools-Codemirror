@@ -54,7 +54,7 @@
             }
 
             var originalElement = element;
-            if (element.parent().type() !== 'Region') {
+            if (element.parent().type() !== 'Region' && !element.isFixed()) {
                 element = element.closest(function(node) {
                     return node.parent().type() === 'Region';
                 });
