@@ -6,5 +6,8 @@
 * Add ct-codemirror.css file, only required because the content tools styles override the codemirror css.  
 * Add to the toolbox `ContentTools.DEFAULT_TOOLS[0].push('codemirror')` before initializing ContentTools' the icon is the same as the existing preformatted tool. 
 
-### License: MIT
+Screenshot:
 
+<img alt="screenshot" src="https://raw.githubusercontent.com/etal2/ContentTools-Codemirror/master/screenshot.png" width="400">
+
+### License: MIT
